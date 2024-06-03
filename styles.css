@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+.header{
+  background: #0069c0;
+  height: 120px;
+}
+
+.header-icono{
+  width: 120px;
+  height: 120px;
+}
+
+.titulo-principal {
+  font-family: "Amatic SC", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: -86px;
+}
+
+.titulo-principal:hover{
+  color: #fff;
+}
+
+/* Styles login */
+
+.titulo-segundario{
+  font-family: "Yatra One", system-ui;
+  padding: 26px 52px;
+}
+
+.form-login{
+  margin: 6%  43%;
+  border: solid 2px #000;
+  width: 280px;
+  height: 180px;
+  padding: 26px;
+  background: #7f00b2;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.form-login h3{
+  text-align: center;
+}
+
+.form-login input{
+  width: 260px;
+  height: 24px;
+  border-radius: 12px;
+  border: solid 1px #000;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button{
+  width: 120px;
+  height: 36px;
+  padding: 4px;
+  background: #fff;
+  color: #000;
+  margin: 24px 80px;
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
+  border: solid 2px #000;
+}
+
+.button:hover{
+  background: #ab3ed8;
+  color: #fff;
+}
+
+/* footer */
+
+.footer{
+  background: #0069c0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contacto{
+  padding: 20px;
+  text-align: center;
+}
+
+.redes-sociales img{
+  width: 40px;
+  margin: 25px 6px;
+  padding: 6px;
+  background: #0069c0;
+  border-radius: 60px;
+}
+
+.redes-sociales a{
+  text-decoration: none;
+}
+
+.redes-sociales img:hover{
+  text-decoration: none;
+  padding: 6px;
+  background: #7f00b2;
+  border-radius: 60px;
+}
+
+.text-reservado{
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+}
+
+
+/* styles home */
+
+.main{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav{
+  margin: 28px;
+}
+
+.nav ul a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav ul a:hover{
+  color: #000;
+}
+
+.nav ul a li{
+  list-style: none;
+  background: #7f00b2;
+  padding: 6px;
+  margin: 6px;
+  border-radius: 4px;
+}
+
+.imagen-gato{
+  width: 260px;
+  border-radius: 4px;
+  padding-bottom: 14px;
+}
+
+.mision-vision{
+  margin: 0 60px;
+  font-family: "Underdog", system-ui;
+  font-size: 18px;
+}
+
+/* styles position */
+
+.nav-paginas{
+  background: #7f00b2;
+}
+
+.nav-paginas ul{
+  display: flex;
+}
+
+
+.nav-paginas ul a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-paginas ul a:hover{
+  color: #000;
+}
+
+.nav-paginas ul a li{
+  list-style: none;
+  padding: 6px;
+  margin: 6px;
+  border-radius: 4px;
+}
+
+/* styles positions */
+
+.tabla-cargos{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  margin-bottom: 160px;
+}
+
+.tabla-cargos th{
+  width: 320px;
+  height: 30px;
+  background: #000;
+  color: #fff;
+}
